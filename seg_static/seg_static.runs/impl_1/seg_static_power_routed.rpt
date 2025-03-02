@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date             : Sun Mar  2 14:50:49 2025
+| Date             : Sun Mar  2 15:00:37 2025
 | Host             : DESKTOP-MCR5VBE running 64-bit major release  (build 9200)
 | Command          : report_power -file seg_static_power_routed.rpt -pb seg_static_power_summary_routed.pb -rpx seg_static_power_routed.rpx
 | Design           : seg_static
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 5.022        |
+| Total On-Chip Power (W)  | 4.983        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 4.913        |
+| Dynamic (W)              | 4.874        |
 | Device Static (W)        | 0.109        |
 | Effective TJA (C/W)      | 2.7          |
-| Max Ambient (C)          | 71.6         |
-| Junction Temperature (C) | 38.4         |
+| Max Ambient (C)          | 71.7         |
+| Junction Temperature (C) | 38.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.315 |      104 |       --- |             --- |
-|   LUT as Logic |     0.275 |       28 |     63400 |            0.04 |
+| Slice Logic    |     0.267 |      103 |       --- |             --- |
+|   LUT as Logic |     0.228 |       29 |     63400 |            0.05 |
 |   CARRY4       |     0.017 |        6 |     15850 |            0.04 |
-|   Register     |     0.017 |       49 |    126800 |            0.04 |
+|   Register     |     0.017 |       48 |    126800 |            0.04 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.222 |       91 |       --- |             --- |
+| Signals        |     0.230 |       90 |       --- |             --- |
 | I/O            |     4.376 |       16 |       285 |            5.61 |
 | Static Power   |     0.109 |          |           |                 |
-| Total          |     5.022 |          |           |                 |
+| Total          |     4.983 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.566 |       0.541 |      0.025 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.527 |       0.502 |      0.025 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.179 |       0.160 |      0.019 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     1.242 |       1.238 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,7 +138,7 @@ Table of Contents
 +------------+-----------+
 | Name       | Power (W) |
 +------------+-----------+
-| seg_static |     4.913 |
+| seg_static |     4.874 |
 +------------+-----------+
 
 

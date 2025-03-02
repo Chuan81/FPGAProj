@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Sun Mar  2 14:50:49 2025
+| Date         : Sun Mar  2 15:00:36 2025
 | Host         : DESKTOP-MCR5VBE running 64-bit major release  (build 9200)
 | Command      : report_methodology -file seg_static_methodology_drc_routed.rpt -pb seg_static_methodology_drc_routed.pb -rpx seg_static_methodology_drc_routed.rpx
 | Design       : seg_static
@@ -23,11 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max checks: <unlimited>
-             Checks found: 49
+             Checks found: 48
 +-----------+------------------+-----------------------------+--------+
 | Rule      | Severity         | Description                 | Checks |
 +-----------+------------------+-----------------------------+--------+
-| TIMING-17 | Critical Warning | Non-clocked sequential cell | 49     |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell | 48     |
 +-----------+------------------+-----------------------------+--------+
 
 2. REPORT DETAILS
@@ -214,65 +214,60 @@ Related violations: <none>
 
 TIMING-17#37 Critical Warning
 Non-clocked sequential cell  
-The clock pin seg_reg[7]/C is not reached by a timing clock
+The clock pin sel_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#38 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[0]/C is not reached by a timing clock
+The clock pin sel_reg[0]_lopt_replica/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#39 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[0]_lopt_replica/C is not reached by a timing clock
+The clock pin sel_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#40 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[1]/C is not reached by a timing clock
+The clock pin sel_reg[1]_lopt_replica/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#41 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[1]_lopt_replica/C is not reached by a timing clock
+The clock pin sel_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#42 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[2]/C is not reached by a timing clock
+The clock pin sel_reg[2]_lopt_replica/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#43 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[2]_lopt_replica/C is not reached by a timing clock
+The clock pin sel_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#44 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[3]/C is not reached by a timing clock
+The clock pin sel_reg[3]_lopt_replica/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#45 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[3]_lopt_replica/C is not reached by a timing clock
+The clock pin sel_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#46 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[4]/C is not reached by a timing clock
+The clock pin sel_reg[4]_lopt_replica/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#47 Critical Warning
 Non-clocked sequential cell  
-The clock pin sel_reg[4]_lopt_replica/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#48 Critical Warning
-Non-clocked sequential cell  
 The clock pin sel_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
-TIMING-17#49 Critical Warning
+TIMING-17#48 Critical Warning
 Non-clocked sequential cell  
 The clock pin sel_reg[5]_lopt_replica/C is not reached by a timing clock
 Related violations: <none>

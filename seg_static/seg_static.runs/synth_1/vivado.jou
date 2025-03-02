@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sun Mar  2 14:49:31 2025
-# Process ID         : 21832
+# Start of session at: Sun Mar  2 14:59:11 2025
+# Process ID         : 5604
 # Current directory  : C:/Users/J202-FPGA/Desktop/FPGAProj/seg_static/seg_static.runs/synth_1
 # Command line       : vivado.exe -log seg_static.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seg_static.tcl
 # Log file           : C:/Users/J202-FPGA/Desktop/FPGAProj/seg_static/seg_static.runs/synth_1/seg_static.vds
@@ -19,6 +19,6 @@
 # Host memory        : 16486 MB
 # Swap memory        : 4093 MB
 # Total Virtual      : 20579 MB
-# Available Virtual  : 5505 MB
+# Available Virtual  : 5604 MB
 #-----------------------------------------------------------
 source seg_static.tcl -notrace
