@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740898168">
+  <File Type="PA-TCL" Name="seg_static.tcl"/>
+  <File Type="REPORTS-TCL" Name="seg_static_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="seg_static_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="seg_static_opt.dcp"/>
+  <File Type="OPT-DRC" Name="seg_static_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="seg_static_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="seg_static.hwdef"/>
+  <File Type="OPT-TIMING" Name="seg_static_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="seg_static_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="seg_static_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="seg_static_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="seg_static_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="seg_static_placed.dcp"/>
+  <File Type="PLACE-IO" Name="seg_static_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="seg_static_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="seg_static_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="seg_static_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="seg_static_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="seg_static_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="seg_static_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="seg_static_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="seg_static_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="seg_static_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="seg_static_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="seg_static_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="seg_static_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="seg_static_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="seg_static_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="seg_static_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="seg_static_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="seg_static_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="seg_static_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="seg_static_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="seg_static_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="seg_static_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="seg_static_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="seg_static_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="seg_static_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="seg_static_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="seg_static_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="seg_static_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="seg_static_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="seg_static_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="seg_static_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="seg_static_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="seg_static_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="seg_static_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="seg_static_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="seg_static_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="seg_static_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="seg_static_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="seg_static_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="seg_static_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="seg_static_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="seg_static_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="seg_static_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="seg_static_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="seg_static_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="seg_static.bit"/>
+  <File Type="BG-BIN" Name="seg_static.bin"/>
+  <File Type="BITSTR-MSK" Name="seg_static.msk"/>
+  <File Type="BITSTR-RBT" Name="seg_static.rbt"/>
+  <File Type="BITSTR-NKY" Name="seg_static.nky"/>
+  <File Type="BITSTR-BMM" Name="seg_static_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="seg_static.mmi"/>
+  <File Type="PDI-FILE" Name="seg_static.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="seg_static_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="seg_static_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="seg_static.rcfi"/>
+  <File Type="CFI_FILE" Name="seg_static.cfi"/>
+  <File Type="RNPI_FILE" Name="seg_static.rnpi"/>
+  <File Type="NPI_FILE" Name="seg_static.npi"/>
+  <File Type="RBD_FILE" Name="seg_static.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="seg_static.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="seg_static.sysdef"/>
+  <File Type="BG-BGN" Name="seg_static.bgn"/>
+  <File Type="BG-DRC" Name="seg_static.drc"/>
+  <File Type="RDI-RDI" Name="seg_static.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="seg_static_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="seg_static_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/seg_static.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="seg_static"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/seg_static.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/seg_static.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/seg_static.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
