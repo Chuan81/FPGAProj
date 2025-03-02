@@ -60,11 +60,11 @@ module seg_static
 
     always @(posedge sys_clk or negedge sys_rst_n) begin
         if(!sys_rst_n)
-            seg<=8'b0;
+            seg<=seg_init[0];
         else if(cnt==CNTMAX_500ms)
             seg<=seg_init[flag];
         else
             seg<=seg;
     end
-    
+
 endmodule
