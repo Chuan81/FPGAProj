@@ -1,0 +1,6 @@
+set_property PACKAGE_PIN W19 [get_ports Clk]
+set_property IOSTANDARD LVCMOS33 [get_ports Clk]
+set_property PACKAGE_PIN R16 [get_ports Reset_n]
+set_property IOSTANDARD LVCMOS33 [get_ports Reset_n]
+set_property PACKAGE_PIN N20 [get_ports led]
+set_property IOSTANDARD LVCMOS33 [get_ports led]

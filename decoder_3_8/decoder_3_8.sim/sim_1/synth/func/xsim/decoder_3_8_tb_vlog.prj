@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"decoder_3_8_tb_func_synth.v" \
+"../../../../../decoder_3_8.srcs/sim_1/new/decoder_3_8_tb.v" \
+
+# Do not sort compile order
+nosort

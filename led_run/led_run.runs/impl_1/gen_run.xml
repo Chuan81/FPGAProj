@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740662876">
+  <File Type="PA-TCL" Name="led_run.tcl"/>
+  <File Type="REPORTS-TCL" Name="led_run_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="led_run_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="led_run_opt.dcp"/>
+  <File Type="OPT-DRC" Name="led_run_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="led_run_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="led_run.hwdef"/>
+  <File Type="OPT-TIMING" Name="led_run_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="led_run_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="led_run_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="led_run_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="led_run_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="led_run_placed.dcp"/>
+  <File Type="PLACE-IO" Name="led_run_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="led_run_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="led_run_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="led_run_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="led_run_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="led_run_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="led_run_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="led_run_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="led_run_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="led_run_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="led_run_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="led_run_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="led_run_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="led_run_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="led_run_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="led_run_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="led_run_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="led_run_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="led_run_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="led_run_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="led_run_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="led_run_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="led_run_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="led_run_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="led_run_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="led_run_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="led_run_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="led_run_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="led_run_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="led_run_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="led_run_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="led_run_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="led_run_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="led_run_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="led_run_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="led_run_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="led_run_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="led_run_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="led_run_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="led_run_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="led_run_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="led_run_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="led_run_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="led_run_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="led_run_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="led_run.bit"/>
+  <File Type="BG-BIN" Name="led_run.bin"/>
+  <File Type="BITSTR-MSK" Name="led_run.msk"/>
+  <File Type="BITSTR-RBT" Name="led_run.rbt"/>
+  <File Type="BITSTR-NKY" Name="led_run.nky"/>
+  <File Type="BITSTR-BMM" Name="led_run_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="led_run.mmi"/>
+  <File Type="PDI-FILE" Name="led_run.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="led_run_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="led_run_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="led_run.rcfi"/>
+  <File Type="CFI_FILE" Name="led_run.cfi"/>
+  <File Type="RNPI_FILE" Name="led_run.rnpi"/>
+  <File Type="NPI_FILE" Name="led_run.npi"/>
+  <File Type="RBD_FILE" Name="led_run.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="led_run.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="led_run.sysdef"/>
+  <File Type="BG-BGN" Name="led_run.bgn"/>
+  <File Type="BG-DRC" Name="led_run.drc"/>
+  <File Type="RDI-RDI" Name="led_run.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="led_run_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="led_run_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/led_run.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="led_run"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/led_run.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/led_run.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/led_run.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

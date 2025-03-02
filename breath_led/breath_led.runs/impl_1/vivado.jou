@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Mar  1 17:49:04 2025
+# Process ID         : 8876
+# Current directory  : C:/Users/J202-FPGA/Desktop/FPGAProj/breath_led/breath_led.runs/impl_1
+# Command line       : vivado.exe -log breath_led.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source breath_led.tcl -notrace
+# Log file           : C:/Users/J202-FPGA/Desktop/FPGAProj/breath_led/breath_led.runs/impl_1/breath_led.vdi
+# Journal file       : C:/Users/J202-FPGA/Desktop/FPGAProj/breath_led/breath_led.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-MCR5VBE
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 5 5600G with Radeon Graphics         
+# CPU Frequency      : 3893 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16486 MB
+# Swap memory        : 3176 MB
+# Total Virtual      : 19662 MB
+# Available Virtual  : 8323 MB
+#-----------------------------------------------------------
+source breath_led.tcl -notrace
