@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Mar  3 16:27:31 2025
+# Process ID         : 5676
+# Current directory  : C:/Users/J202-FPGA/Desktop/FPGAProj/top_seg_dynamic/top_seg_dynamic.runs/impl_1
+# Command line       : vivado.exe -log top_seg_dynamic.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_seg_dynamic.tcl -notrace
+# Log file           : C:/Users/J202-FPGA/Desktop/FPGAProj/top_seg_dynamic/top_seg_dynamic.runs/impl_1/top_seg_dynamic.vdi
+# Journal file       : C:/Users/J202-FPGA/Desktop/FPGAProj/top_seg_dynamic/top_seg_dynamic.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-MCR5VBE
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 5 5600G with Radeon Graphics         
+# CPU Frequency      : 3893 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16486 MB
+# Swap memory        : 3087 MB
+# Total Virtual      : 19573 MB
+# Available Virtual  : 8630 MB
+#-----------------------------------------------------------
+source top_seg_dynamic.tcl -notrace
